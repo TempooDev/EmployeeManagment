@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmployeeManager.Web", "EmployeeManager.Web", "{1C60260F-C924-4CB4-9D82-87AB9E90D8BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManager.Web", "EmployeeManager.Web\EmployeeManager.Web\EmployeeManager.Web.csproj", "{012E52AC-E7D9-490A-AE1E-C023DA2F8A10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManager.Web.Client", "EmployeeManager.Web\EmployeeManager.Web.Client\EmployeeManager.Web.Client.csproj", "{8A61179A-4193-49E6-B521-AB0CA24F24E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{012E52AC-E7D9-490A-AE1E-C023DA2F8A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{012E52AC-E7D9-490A-AE1E-C023DA2F8A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{012E52AC-E7D9-490A-AE1E-C023DA2F8A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{012E52AC-E7D9-490A-AE1E-C023DA2F8A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A61179A-4193-49E6-B521-AB0CA24F24E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A61179A-4193-49E6-B521-AB0CA24F24E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A61179A-4193-49E6-B521-AB0CA24F24E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A61179A-4193-49E6-B521-AB0CA24F24E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{012E52AC-E7D9-490A-AE1E-C023DA2F8A10} = {1C60260F-C924-4CB4-9D82-87AB9E90D8BF}
+		{8A61179A-4193-49E6-B521-AB0CA24F24E4} = {1C60260F-C924-4CB4-9D82-87AB9E90D8BF}
+	EndGlobalSection
+EndGlobal
